@@ -1,0 +1,101 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+	
+.conteneur{
+	height: 50px;
+	border-bottom:1px solid #989992;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	flex-wrap: wrap;
+
+
+}
+
+.logo{
+	width: 100px;
+	height: 25px;
+	border:1px solid black;
+	border-radius: 5px;
+	background-color: black;
+	color: white;
+	display: flex;
+	align-items: center;
+	margin-left: 25px;
+
+	
+}
+ul{
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	padding:0;
+	align-items: center;
+	margin-right: 2%;
+
+}
+
+a{
+	height: 56px;
+	text-decoration: none;
+	color: inherit;
+	padding-right:15px; 
+	padding-left:15px;
+}
+.pContain{
+	text-align: justify;
+	margin: auto;
+	margin-top: 80px;
+	margin-bottom: 70px;
+	padding: 30px;
+	height:90px;
+	width:90%;
+	background-color: #7C9B6F;	
+}
+.pContain p{
+	text-align: justify;
+}
+
+
+.imgContain{
+	display: flex;
+	justify-content: center;
+}
+img{
+	padding-right: 15px;
+	padding-left: 15px;
+	height: 50%;
+	width: 30%;
+}
+
+.bottomContain{
+	display: flex;
+	justify-content: space-around;
+	margin-top:80px;
+	margin-bottom: 80px;
+	flex-wrap: wrap;
+
+
+}
+.bottomContain p{
+	color: #A37E5D;
+	font-size: 15px;
+}
+.pLittleContain{
+	text-align: left;
+	width: 350px;
+	height: 525px;
+	display: flex;
+	align-content: center;
+	flex-wrap: wrap;
+
+
+}
+.emptyContain{
+	background-color: #A37E5D;
+	height:525px; 
+	width:500px;
+}
